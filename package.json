@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building static site...' && mkdir -p dist && cp -r * dist/ 2>/dev/null || echo 'No files to copy'",
+    "cf-page-vless": "npm run build",
+    "start": "echo 'Project ready'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manamumu/edgetunnel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manamumu/edgetunnel/issues"
+  },
+  "homepage": "https://github.com/Manamumu/edgetunnel#readme"
+}
